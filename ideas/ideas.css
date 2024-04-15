@@ -1,11 +1,20 @@
-li{
+li {
     list-style: none;
     list-style-image: url(lamp_icon-icons.com_67858.png);
     font-size: 20px;
-}
-li a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-   
+
 }
 
+a {
+    color: #ffff;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background: #3a3a3a;
+}

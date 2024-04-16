@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maquetado 1</title>
-    <link rel="stylesheet" href="css1.css">
-</head>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/estilosPrincipales.css" />
+  </head>
 
-<body>
-    <header>
-        <div class="container">
-
-            <nav>
-                <div class="menu-toggle">&#9776;</div>
-                <ul class="nav-menu">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
+  <body>
+      <div class="hero">
+        <div class="redes">
+            <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="assets/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="assets/whatsapp.png" alt="WhatsApp"></a>
         </div>
+      </div>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="menu-toggle">&#9776;</div>
+          <ul class="nav-menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-        <div class="container">
-            <section>
-                <h2>Sección Principal</h2>
-                <p>Bienvenido a mi sitio web. Aquí puedes encontrar información sobre nuestros servicios y productos.
-                </p>
-            </section>
-        </div>
+      <div class="container">
+        <section>
+          <h2>Sección Principal</h2>
+          <p>
+            Bienvenido a mi sitio web. Aquí puedes encontrar información sobre
+            nuestros servicios y productos.
+          </p>
+        </section>
+      </div>
     </main>
     <footer>
-        <div class="container">
-            <p>&copy; mi web</p>
-        </div>
+      <div class="container">
+        <p><span>&copy;</span>mi web</p>
+      </div>
     </footer>
-
-</body>
-
-
-<script>
-    const menuToggle = document.querySelector('.menu-toggle');
-    const navMenu = document.querySelector('.nav-menu');
-
-    menuToggle.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
-    });
-</script>
-
+  </body>
+  <!-- JavaScript -->
+  <script src="js/menuHamburguesa.js"
 </html>

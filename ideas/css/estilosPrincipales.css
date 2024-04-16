@@ -1,5 +1,6 @@
 /* Fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Poppins:wght@400;600;700&display=swap");
+
 /* Fin Fuentes */
 /* Variables Globales */
 :root {
@@ -10,13 +11,15 @@
   --Black: #000000;
   --White: #ffffff;
 }
+
 /* Fin Variables Globales */
 /* Inicio reset estilos default */
 * {
   background-origin: border-box;
-  position: relative;
+  /* position: relative; */
   min-width: 0;
 }
+
 body {
   min-height: 100dvh;
 }
@@ -31,6 +34,7 @@ h4 {
 p {
   text-wrap: pretty;
 }
+
 /* Fin reset estilos default */
 body,
 h1,
@@ -62,7 +66,7 @@ header {
 header h1 {
   margin-bottom: 10px;
 }
-/* HERO REDES */
+
 .hero {
   background-color: var(--Dark-Gray);
   height: 2.5rem;
@@ -71,22 +75,13 @@ header h1 {
 .redes{
   display: flex;
   align-items: center;
-  justify-content: space-around;
-}
-.icono-red {
-  border-radius: 100%;
-  background-color: var(--Black);
-  width: 32px;
-  height: 32px;
-  display:flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
-.icono-red a{
-  
-  text-decoration: none;
-  color: var(--White);
+.hero img {
+  width: 24px;
+  height: auto;
+  padding: 10px;
 }
 
 /* FIN HERO REDES */
@@ -128,14 +123,15 @@ nav {
 @media screen and (max-width: 768px) {
   .menu-toggle {
     display: block;
+    z-index: 100;
   }
 
   .nav-menu {
     display: none;
     flex-direction: column;
-    background-color: var(--Davys-gray);
+    background-color: var(--Black);
     position: absolute;
-    top: 7%;
+    top: 6%;
     left: 0%;
     width: 100%;
     padding: 20px 0;
@@ -163,6 +159,7 @@ nav {
 
 main {
   padding: 20px 0;
+  color: var(--Black);
 }
 
 footer {
@@ -170,11 +167,12 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: var(--Davys-gray);
+  background-color: var(--Black);
   color: var(--Dark-Gray);
   padding: 20px 0;
   text-align: center;
 }
+
 span {
   margin: 10px;
 }

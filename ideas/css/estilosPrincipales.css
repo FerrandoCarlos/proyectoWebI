@@ -62,20 +62,36 @@ header {
 header h1 {
   margin-bottom: 10px;
 }
-
-.hero{
+/* HERO REDES */
+.hero {
   background-color: var(--Dark-Gray);
-  display: flex;
-  align-items: center;
-  justify-content:space-evenly;
-}
-
-.hero img{
-  width: 24px;
-  height:auto;
+  height: 2.5rem;
   padding: 10px;
 }
+.redes{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.icono-red {
+  border-radius: 100%;
+  background-color: var(--Black);
+  width: 32px;
+  height: 32px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.icono-red a{
+  
+  text-decoration: none;
+  color: var(--White);
+}
+
+/* FIN HERO REDES */
+
+  
 nav {
   display: flex;
   justify-content: center;
@@ -103,6 +119,10 @@ nav {
 .nav-menu li a {
   text-decoration: none;
   color: var(--White);
+}
+
+.nav-menu li a:hover {
+  color: var(--Medium-Aquamarine);
 }
 
 @media screen and (max-width: 768px) {
@@ -155,6 +175,6 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-span{
+span {
   margin: 10px;
 }

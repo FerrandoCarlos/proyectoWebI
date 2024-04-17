@@ -69,13 +69,13 @@ header h1 {
 
 .hero {
   background-color: var(--Dark-Gray);
-  height: 2.5rem;
+  height: 2rem;
   padding: 10px;
 }
 .redes{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .hero img {
@@ -154,6 +154,10 @@ nav {
   .nav-menu li a {
     display: block;
     padding: 10px 0;
+  }
+  .redes{
+   
+    justify-content: normal;
   }
 }
 

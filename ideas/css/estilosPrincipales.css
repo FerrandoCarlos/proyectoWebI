@@ -58,9 +58,14 @@ body {
 }
 
 header {
+  
   background-color: var(--Black);
   color: var(--White);
   padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 6%;
+
 }
 
 header h1 {
@@ -71,6 +76,11 @@ header h1 {
   background-color: var(--Dark-Gray);
   height: 2rem;
   padding: 10px;
+ /* display: flex;*/
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  
 }
 .redes{
   display: flex;
@@ -156,13 +166,14 @@ nav {
     padding: 10px 0;
   }
   .redes{
-   
+    display: flex;
+    align-items: center;
     justify-content: normal;
   }
 }
 
 main {
-  padding: 20px 0;
+  padding: 135px 0px;
   color: var(--Black);
 }
 

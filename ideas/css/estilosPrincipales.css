@@ -64,7 +64,7 @@ header {
   padding: 20px 0;
   position: fixed;
   width: 100%;
-  top: 6%;
+  top: 5%;
 
 }
 
@@ -135,6 +135,11 @@ nav {
     display: block;
     z-index: 100;
   }
+  header {
+ 
+  top: 6%;
+
+}
 
   .nav-menu {
     display: none;
